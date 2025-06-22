@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/public/imagens/favicon.png">
+
+</head>
+<body>
+    <header>
+            <nav class="barra-navegacao">
+                <h1>Logo</h1>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre-mim">Sobre mim</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a class="botao-nav" href="#contato">Contato</a></li>
+
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <!--Seção de boas-vindas-->
+        <section class="boas-vindas">
+            <div class="boas-vindas-conteudo">
+                <div class="boas-vindas-titulo">
+                    <span>Graduanda em Análise e Desenvolvimento de Sistemas</span>
+                    <h1>Jéssica Limana</h1>
+                    <a href="">Veja o meu portfólio</a>
+                </div>
+                <div class="boas-vindas-imagem">
+                    <img src="/public/imagens/foto 1.jpg" alt="Mulher mexendo no computador" height="500px">
+                </div>
+            </div>
+        </section>
+
+            <!--Seção sobre mim-->
+        <section class="sobre-mim">
+            <div class="sobre-mim-conteudo">
+                <div class="sobre-mim-imagem">
+                    <img src="/public/imagens/foto 2.jpg" alt="Mulher do sobre mim" width="600px">
+                </div>
+
+                <div class="sobre-mim-apresentacao">
+                    <div class="sobre-mim-texto">
+                    <h2>Sobre mim</h2>
+                    <p>Sou a Jéssica, tenho 25 anos e comecei a aprender programação em 2024, meu foco é ajudar o máximo de pessoas possíveis atráves da tecnologia.</p>
+                    <a target="_blank" href="https://www.linkedin.com/in/jessicalimana/">Veja meu currículo online</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Seção de formação-->
+        <section class="formacao" id="formacao">
+            <div class="formacao-conteudo">
+                <h2>Formação</h2>
+            <ul>
+                <li>Graduação em Análise e Desenvolvimento de Sistemas - UNINTER (2024 - em andamento)</li>
+                <li>Formação Técnica em Gestão Pública</li>
+                <li>Idiomas: Português (nativo), Inglês (básico)</li>
+            </ul>
+            </div>
+        </section>
+        <!--Seção sobre os meus projetos-->
+        <section class="projetos">
+            <div class="projetos-conteudo">
+                <div class="projetos-titulo">
+                    <span>O que eu já contribui para a solução</span>
+                    <h2>Meus projetos</h2>
+                </div>
+                <div class="projetos-itens">
+                    <!--Projeto 1-->
+                    <div class="projeto-item">
+                        <img src="/public/imagens/projeto financeiro.png" alt="Imagem do Projeto 1" width="80px">
+                        <p class="paragrafo">Finanças O.K</p>
+                        <p class="par-descricao">Planilha automatizada de controle de gastos pessoais</p>
+                        <a href="https://github.com/jessicalimana" target="_blank">Saiba mais</a>
+
+                    </div>
+
+                    <!--Projeto 2-->
+                    <div class="projeto-item">
+                        <img src="/public/imagens/whats.png" alt="Imagem do Projeto 2" width="80px">
+                        <p class="paragrafo">Whatsapp para o Empreendedor </p>
+                        <p class="par-descricao">Uma solução para os comerciantes com a facilidade do IA</p>
+                        <a href="https://github.com/jessicalimana" target="_blank">Saiba mais</a>
+                    </div>
+
+                    <!--Projeto 3-->
+                    <div class="projeto-item">
+                        <img src="/public/imagens/projeto seguranca.png" alt="Imagem do Projeto 3" width="80px">
+                        <p class="paragrafo">Estou 100% Seguro </p>
+                        <p class="par-descricao">Programa de monitoramento de residências contanto com auxílio da IA</p>
+                        <a href="https://github.com/jessicalimana" target="_blank">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Seção contato-->
+        <section class="contato">
+            <div class="contato-container">
+                <div class="contato-conteudo">
+                <div class="contato-texto">
+                    <h2>Contato</h2>
+                    <p>Se você gostou do que viu até aqui e gostaria de trocar alguma ideia, entre em contato comigo preenchendo o formulário que assim que possível eu retornarei</p>
+                </div>
+                <div class="contato-formulario"> 
+                    <form >
+                        <div class="campo">
+                            <label for="nome">Nome:</label>
+                            <input name="conversa" type="text" id="nome" placeholder="Digite o seu nome">
+                        </div>
+                        <div class="campo">
+                            <label for="email">Email:</label>
+                            <input name="conversa" type="email" id="email" placeholder="Digite o seu e-mail">
+                        </div>
+                        <div class="campo">
+                            <label for="assunto">Assunto:</label>
+                            <input name="conversa" type="text" id="assunto" placeholder="Digite um assunto"> 
+                        </div>
+                        <div class="campo">
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea name="conversa" id="mensagem"></textarea>
+                        </div>            
+                                   
+                        <input type="submit" name="conversa"  value="Enviar">
+                    </form>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Parte final rodapé-->
+    <footer>
+        <div class="rodape">
+                <h3>
+                    Obrigada pela sua visita!
+                </h3>
+            <nav>
+                <ul>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/jessicalimana/">Linkedin</a></li>
+                    <li><a target="_blank" href="https://github.com/jessicalimana">Github</a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/jessica.limana/">Instagram</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
